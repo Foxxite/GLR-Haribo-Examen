@@ -1206,7 +1206,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 15d6a9c2fdcca74429d0cc9fadf59207, type: 2}
+  - {fileID: 2100000, guid: a1d07bfcaf0cefa4783e6714e4231687, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3130,6 +3130,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18cf8a7b7df147d4786f75c45c171aed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Hallu1:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Hallu2:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Hallu3:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1659501424
 GameObject:
   m_ObjectHideFlags: 0
@@ -3793,7 +3808,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 15d6a9c2fdcca74429d0cc9fadf59207, type: 2}
+  - {fileID: 2100000, guid: 2385c4d533bb2fe4a8c9037b75835bf9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

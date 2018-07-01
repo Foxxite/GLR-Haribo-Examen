@@ -17,14 +17,17 @@ public class EatCandy : MonoBehaviour {
             if(r == 0)
             {
                 Hallu1.Invoke();
+                other.GetComponent<CanyControl>().Reset(); 
             }
             else if (r == 1)
             {
                 Hallu2.Invoke();
+                other.GetComponent<CanyControl>().Reset();
             }
             else
             {
                 Hallu3.Invoke();
+                other.GetComponent<CanyControl>().Reset();
             }
         }
     }
