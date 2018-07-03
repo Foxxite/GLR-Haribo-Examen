@@ -9,11 +9,20 @@ public class EatCandy : MonoBehaviour {
     public UnityEvent Hallu2;
     public UnityEvent Hallu3;
 
+    void Start()
+    {
+        Debug.Log(GetComponent<BoxCollider>().size);
+        Debug.Log(GetComponent<BoxCollider>().isTrigger);
+    }
+
+
     void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Collided Object: " + other.tag + " | " + other.name);
         if(other.tag == "Candy")
         {
             int r = Random.Range(0, 2);
+            Debug.Log(r);
             if(r == 0)
             {
                 Hallu1.Invoke();
